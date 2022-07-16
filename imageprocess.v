@@ -53,7 +53,7 @@ end
     
 initial
 begin
-    $readmemh("E:/clg work/Sem 4/Matlab Files/im16.txt",MEM);
+    $readmemh("im16.txt",MEM);          //path for reading orginal image
 end
 
 initial
@@ -69,7 +69,7 @@ begin
             MEMOUT[count]=OUTBYTE;
             end            
     end
-    $writememh("E:/clg work/Sem 4/Matlab Files/imgnew.txt",MEMOUT);
+    $writememh("imgnew.txt",MEMOUT);            //path to write modified image
 end
 
 endmodule
