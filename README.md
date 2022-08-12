@@ -2,7 +2,7 @@
 Image Processing Module By Arpit Bhatnagar
 # Introduction
 In this project, I have implemented image processing operations on a black and white image using verilog. 
-![image](https://user-images.githubusercontent.com/109095852/179349724-c29cb78e-db19-4715-9751-60cc5da8d65e.png)
+![image](https://user-images.githubusercontent.com/109095852/179349724-c29cb78e-db19-4715-9751-60cc5da8d65e.png)<br>
 Since in a Black and white image, each pixel is represented by an 8 bit value, each pixel is supplied using the inbyte port. The type of operation is controlled using the select bits. The threshold and value bits are used in the operations binarisation and brightness increase respectively.
 # Operations
 Select 2'b00 : Increases brightness by "Values" <br>
